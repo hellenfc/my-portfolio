@@ -1,4 +1,3 @@
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -29,9 +28,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 Hellen Fiallos' portfolio website
@@ -40,12 +38,13 @@ Hellen Fiallos' portfolio website
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [React](https://react.com)
-* [Vite](https://vite.com)
-* [TypeScript](https://typescript.com)
 
+- [React](https://react.com)
+- [Vite](https://vite.com)
+- [TypeScript](https://typescript.com)
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 Instrictions on setting up your project locally. To get a local copy up and running follow these simple steps.
@@ -59,27 +58,26 @@ node version 18.0.0 or higher
 1. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
-``
+   ``
+   ```
 2. Install NPM packages
    ```sh
    npm install
    ```
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
-
 [product-screenshot]: images/screenshot.png
-
 
 # React + TypeScript + Vite
 
