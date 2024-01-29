@@ -9,16 +9,22 @@ export default function Experience() {
       date: 'Aug 2021 - Aug 2023',
       description: [
         'Frontend and mobile development for wellness and exercise app.',
-        'Contributed to Frontend development for a FinTech app.',
+        'Contributed to frontend development for a FinTech app.',
       ],
       tech: [
         'ReactJS',
-        'Javascript',
-        'NodeJS',
-        'PostgreSQL',
-        'HTML',
+        'NextJS',
+        'React Native',
+        'Typescript',
+        'Tailwind',
         'SASS',
-        'Formik',
+        'Redux',
+        'HTML',
+        'React Hook Forms',
+        'Jest',
+        'PubNub',
+        'Figma',
+        'Storybook',
       ],
     },
     {
@@ -26,7 +32,7 @@ export default function Experience() {
       position: 'Fullstack Developer',
       date: 'Apr 2021 - Aug 2021',
       description: [
-        'Led both back-end and front-end development for a medical platform, focusing on improvement and creation of components.',
+        'Led both backend and frontend development for a medical platform, focusing on improvement and creation of components.',
       ],
       tech: [
         'ReactJS',
@@ -70,7 +76,7 @@ export default function Experience() {
       position: 'Web Developer',
       date: 'Aug 2019 - Nov 2019',
       description: [
-        'Backend and Frontend development for student retention program.',
+        'Backend and frontend development for Mexican University student retention program.',
       ],
       tech: [
         'ReactJS',
@@ -81,6 +87,7 @@ export default function Experience() {
         'MongoDB',
         'Jest',
         'MarvelApp',
+        'Storybook',
       ],
     },
     {
@@ -88,7 +95,7 @@ export default function Experience() {
       position: 'Web Developer',
       date: 'Aug 2018 - Aug 2019',
       description: [
-        'Samsung TV App Development for kids app streaming service.',
+        'Samsung Tizen Development for Disney Now app streaming service.',
       ],
       tech: [
         'ReactJS',
@@ -105,7 +112,7 @@ export default function Experience() {
       position: 'Web Developer',
       date: 'Jun 2018 - Aug 2018',
       description: [
-        'Managed both FrontEnd and BackEnd development, along with client communication and requirement elicitation.',
+        'Managed both frontend and backend development, along with client communication and requirement elicitation.',
         'Design, analysis, and development of internal and external funds module and management system.',
       ],
       tech: ['NodeJS', 'Express', 'PugJS', 'DevExtreme', 'SQLServer'],
@@ -115,8 +122,9 @@ export default function Experience() {
       position: 'Web Developer',
       date: 'Feb 2017 - Apr 2018',
       description: [
-        'Executed both FrontEnd and BackEnd development for various projects, including tasks, events, forms, and web page sections for a tax collection company.',
-        'Contributed to the creation of components for a CMS system.', 'Modules and flow creation for real estate selling system.',
+        'Executed both frontend and backend development for various projects, including tasks, events, forms, and web page sections for a tax collection company.',
+        'Contributed to the creation of components for a CMS system.',
+        'Modules and flow creation for real estate selling system.',
       ],
       tech: [
         'SAPUI5',
@@ -136,7 +144,7 @@ export default function Experience() {
       position: 'Web and Mobile Developer Intern',
       date: 'Mar 2016 - Aug 2016',
       description: [
-        'Executed both FrontEnd and BackEnd development for various projects, including tasks, events, forms, and web page sections for a tax collection company.',
+        'Executed both frontend and backend development for various projects, including tasks, events, forms, and web page sections for a tax collection company.',
         'Contributed to the creation of components for a CMS system.',
         'Modules and flow creation for real estate selling system.',
       ],
