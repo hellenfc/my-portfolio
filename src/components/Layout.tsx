@@ -8,7 +8,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { Link } from '@nextui-org/react'
 
-import Projects from './Projects'
+// import Projects from './Projects'
 import Experience from './Experience'
 import { useState } from 'react'
 
