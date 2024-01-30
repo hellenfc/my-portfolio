@@ -6,7 +6,7 @@ interface Props {
 export default function TechChips({ tech }: Props) {
   return (
     <div className="flex flex-wrap gap-2">
-      {tech.map((item) => {
+      {tech.map((item, index) => {
         return (
           <Chip
             variant="flat"
@@ -14,6 +14,7 @@ export default function TechChips({ tech }: Props) {
               base: 'bg-zinc-200 ',
               content: 'text-sky-900',
             }}
+            key={item + index}
           >
             {item}
           </Chip>

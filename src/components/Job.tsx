@@ -18,7 +18,7 @@ export default function Job({
   tech,
 }: Props) {
   return (
-    <div className="grid gap-4">
+    <div className="grid gap-4" key={work}>
       <div className="flex items-center gap-2 flex-col sm:flex-row">
         <div className="flex items-center">
           <FontAwesomeIcon icon={faBriefcase} className="pr-2" />

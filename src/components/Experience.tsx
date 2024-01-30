@@ -163,6 +163,7 @@ export default function Experience() {
               description={item.description}
               date={item.date}
               tech={item.tech}
+              key={item.work}
             />
             {index !== experience.length - 1 && <Divider />}
           </>

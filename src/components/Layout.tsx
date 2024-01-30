@@ -5,15 +5,18 @@ import {
   faCopy,
   faCheck,
   faArrowRight,
+  faBriefcase,
+  faCode,
 } from '@fortawesome/free-solid-svg-icons'
-import { Link } from '@nextui-org/react'
+import { Link, Tabs, Tab } from '@nextui-org/react'
 
-// import Projects from './Projects'
+import Projects from './Projects'
 import Experience from './Experience'
 import { useState } from 'react'
 
 export default function Layout() {
   const [copied, setCopied] = useState(false)
+  const [displayExperience, setDisplayExperience] = useState(true)
   const openMail = () => {
     window.open('mailto:hellenfc93@gmail.com')
   }
@@ -121,6 +124,8 @@ export default function Layout() {
               </div>
             </div>
           </div>
+          <p>{displayExperience}</p>
+
           <div
             className="flex items-center cursor-pointer"
             onClick={() => openResume()}
@@ -131,10 +136,48 @@ export default function Layout() {
         </div>
       </div>
       {/* </div> */}
+
       <div className="flex flex-col items-center justify-center bg-[#ffffff] min-h-screen">
-        <div className=" overflow-auto p-12 space-y-9">
-          <Experience />
-          {/* <Projects /> */}
+        <div className="flex w-full flex-col pt-4 ">
+          <Tabs
+            aria-label="Options"
+            color="primary"
+            variant="underlined"
+            classNames={{
+              tabList:
+                'gap-6 w-full relative rounded-none p-0 pl-2 pr-2 border-b border-divider',
+              cursor: 'w-full bg-[#075985]',
+              tab: 'max-w-fit px-0 h-12',
+              tabContent: 'group-data-[selected=true]:text-[#075985]',
+            }}
+            onSelectionChange={(key) => {
+              key === 'experience'
+                ? setDisplayExperience(true)
+                : setDisplayExperience(false)
+            }}
+          >
+            <Tab
+              key="experience"
+              title={
+                <div className="flex items-center space-x-2 p-2">
+                  <FontAwesomeIcon icon={faBriefcase} className="pr-2" />
+                  <span>Experience</span>
+                </div>
+              }
+            />
+            <Tab
+              key="projects"
+              title={
+                <div className="flex items-center space-x-2 p-2">
+                  <FontAwesomeIcon icon={faCode} className="pr-2" />
+                  <span>Projects</span>
+                </div>
+              }
+            />
+          </Tabs>
+        </div>
+        <div className=" overflow-auto px-12 pt-6 pb-12 space-y-9">
+          {displayExperience ? <Experience /> : <Projects />}
         </div>
       </div>
     </div>

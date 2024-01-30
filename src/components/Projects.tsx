@@ -2,7 +2,7 @@ import { Link } from '@nextui-org/react'
 
 export default function Projects() {
   return (
-    <>
+    <div className="h-screen">
       <h2 className="text-2xl font-bold">Projects</h2>
       <div className="grid gap-4">
         <div className="flex items-center gap-2">
@@ -28,6 +28,6 @@ export default function Projects() {
           View Details
         </Link>
       </div>
-    </>
+    </div>
   )
 }
