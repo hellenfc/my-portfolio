@@ -76,7 +76,7 @@ export default function Experience() {
       position: 'Web Developer',
       date: 'Aug 2019 - Nov 2019',
       description: [
-        'Backend and frontend development for Mexican University student retention program.',
+        'Backend and frontend development for Mexican College student retention program.',
       ],
       tech: [
         'ReactJS',
